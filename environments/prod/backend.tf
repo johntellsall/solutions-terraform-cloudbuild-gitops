@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "neon-deployment-276318-tfstate"
+    bucket = "my-project-oct27-tfstate"
     prefix = "env/prod"
   }
 }
